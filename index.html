@@ -1848,64 +1848,71 @@
             </div>
         </div>
     </div>
-    <div class="w-10/12 mx-auto py-10">
-        <div class="flex justify-between items-center mb-8">
-            <h2 class="text-4xl font-bold">Our Recent Blog</h2>
-            <button
-                class="bg-[#6BB252] text-white px-5 py-2 rounded-md hover:bg-amber-400 hover:text-white text-xl">View
-                All</button>
+   <div class="w-11/12 mx-auto py-8 sm:py-10">
+    <!-- Heading + Button -->
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 sm:mb-8 gap-4">
+        <h2 class="text-2xl sm:text-4xl font-bold">Our Recent Blog</h2>
+        <button
+            class="bg-[#6BB252] text-white px-4 sm:px-5 py-2 rounded-md hover:bg-amber-400 hover:text-white text-lg sm:text-xl">
+            View All
+        </button>
+    </div>
+
+    <!-- Blog Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+        <!-- Card 1 -->
+        <div class="bg-white shadow-md rounded-xl overflow-hidden px-4 sm:px-6 py-6">
+            <img src="images/11.jpg" alt="Blog 1" class="w-full h-40 sm:h-48 object-cover rounded-xl">
+            <div class="p-2 sm:p-4">
+                <div class="text-xs sm:text-sm text-gray-500 flex justify-between mb-3 sm:mb-4">
+                    <span>📅 22 AUG 2021</span>
+                    <span>TIPS & TRICKS</span>
+                </div>
+                <h3 class="mt-2 sm:mt-4 text-xl sm:text-2xl font-semibold">
+                    Top 10 casual look ideas to dress up your kids
+                </h3>
+                <p class="mt-2 sm:mt-4 text-gray-600 text-base sm:text-lg leading-relaxed">
+                    Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam...
+                </p>
+            </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 ">
-            <div class="bg-white shadow-md rounded-xl overflow-hidden  px-8 py-6">
-                <img src="images/11.jpg" alt="Blog 1" class="h-48 object-cover rounded-xl">
-                <div class="p-4">
-                    <div class="text-sm text-gray-500 flex justify-between mb-4">
-                        <span>📅 22 AUG 2021</span>
-                        <span>TIPS & TRICKS</span>
-                    </div>
-                    <h3 class="mt4 text-4xl font-semibold">
-                        Top 10 casual look ideas to dress up your kids
-                    </h3>
-                    <p class="mt-4 text-gray-600 text-xl leading-loose">
-                        Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt
-                        donec quam. A in arcu, hendrerit neque dolor morbi... </p><br><br>
-                </div>
-            </div>
-            <div class="bg-white shadow-md rounded-xl overflow-hidden px-8 py-6">
-                <img src="images/22.jpg" alt="Blog 2" class="w-full h-48 object-cover rounded-xl">
-                <div class="p-4">
-                    <div class="text-sm text-gray-500 flex justify-between mb-4">
-                        <span>📅 25 AUG 2021</span>
-                        <span>TRENDING</span>
-                    </div>
-                    <h3 class="mt-4 text-4xl font-semibold">
-                        Latest trends of wearing street wears supremely
-                    </h3>
-                    <p class="mt-4 text-gray-600 text-xl leading-loose">
-                        Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt
-                        donec quam. A in arcu, hendrerit neque dolor morbi... </p><br><br>
-                </div>
-            </div>
 
-
-            <div class="bg-white shadow-md rounded-xl overflow-hidden px-8 py-6">
-                <img src="images/33.jpg" alt="Blog 3" class="w-full h-48 object-cover rounded-xl">
-                <div class="p-4">
-                    <div class="text-sm text-gray-500 flex justify-between mb-4">
-                        <span>📅 28 AUG 2021</span>
-                        <span>INSPIRATION</span>
-                    </div>
-                    <h3 class="mt-4 text-4xl font-semibold">
-                        10 Different Types of comfortable clothes ideas for women
-                    </h3>
-                    <p class="mt-4 text-gray-600 text-xl leading-loose">
-                        Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt
-                        donec quam. A in arcu, hendrerit neque dolor morbi...
-                    </p><br><br>
+        <!-- Card 2 -->
+        <div class="bg-white shadow-md rounded-xl overflow-hidden px-4 sm:px-6 py-6">
+            <img src="images/22.jpg" alt="Blog 2" class="w-full h-40 sm:h-48 object-cover rounded-xl">
+            <div class="p-2 sm:p-4">
+                <div class="text-xs sm:text-sm text-gray-500 flex justify-between mb-3 sm:mb-4">
+                    <span>📅 25 AUG 2021</span>
+                    <span>TRENDING</span>
                 </div>
+                <h3 class="mt-2 sm:mt-4 text-xl sm:text-2xl font-semibold">
+                    Latest trends of wearing street wears supremely
+                </h3>
+                <p class="mt-2 sm:mt-4 text-gray-600 text-base sm:text-lg leading-relaxed">
+                    Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam...
+                </p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white shadow-md rounded-xl overflow-hidden px-4 sm:px-6 py-6">
+            <img src="images/33.jpg" alt="Blog 3" class="w-full h-40 sm:h-48 object-cover rounded-xl">
+            <div class="p-2 sm:p-4">
+                <div class="text-xs sm:text-sm text-gray-500 flex justify-between mb-3 sm:mb-4">
+                    <span>📅 28 AUG 2021</span>
+                    <span>INSPIRATION</span>
+                </div>
+                <h3 class="mt-2 sm:mt-4 text-xl sm:text-2xl font-semibold">
+                    10 Different Types of comfortable clothes ideas for women
+                </h3>
+                <p class="mt-2 sm:mt-4 text-gray-600 text-base sm:text-lg leading-relaxed">
+                    Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam...
+                </p>
             </div>
         </div>
     </div>
+</div>
+
 
 
     <div class="w-11/12 mx-auto px-6 py-12">
